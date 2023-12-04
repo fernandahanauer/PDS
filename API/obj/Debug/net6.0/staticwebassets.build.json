@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "a4xdPo6dMX/AXCgFKPqeO/sPw4FpzdSBQrsfngLseTs=",
+  "Source": "RHAPI",
+  "BasePath": "_content/RHAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

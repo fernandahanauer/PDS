@@ -1,0 +1,40 @@
+.resource-data {
+    gap: 10px;
+    padding: 40px 10px;
+
+
+    >div {
+        span {
+            display: block;
+            text-align: center;
+            font-size: 18px;
+        }
+    }
+}
+
+.resource-data__menu {
+    margin-bottom: 40px;
+    ul {
+        padding: 0;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+        border-bottom: 1px solid #000;
+        gap: 5px;
+    }
+
+    li {
+        list-style: none;
+        padding: 15px 0;
+        width: 100%;
+        text-align: center;
+        border-top-left-radius: 7px;
+        border-top-right-radius: 7px;
+        
+        &.active, &:hover {
+            background-color: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+    }
+}

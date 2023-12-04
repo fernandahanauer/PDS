@@ -1,0 +1,98 @@
+body {
+    background-color: #f7f7f7;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    width: 1280px !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+.card {
+    background: #fff;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    -webkit-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.left-aside {
+    background-color: #000 !important;
+    border-radius: 0 !important;
+    color: #fff !important;
+}
+
+a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+button {
+    svg {
+        width: 18px !important;
+        margin-right: 5px;
+    }
+}
+
+.left-drawer {
+    >div {
+        background-color: #181818;
+        width: 8.3%;
+    }
+
+    a {
+        padding: 10px;
+        font-weight: 300;
+        text-transform: uppercase;
+
+        &:hover {
+            background-color: #303030;
+        }
+    }
+
+}
+
+.skill-card {
+    background: #323232;
+    color: #fff;
+    width: fit-content;
+    padding: 2px 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+
+    &:last-child {
+        margin-right: 0;
+    }
+}
+
+.skill-wrapper {
+    display: flex;
+}
+
+.dialog-resource-card {
+    border: 1px solid #e8e8e8;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    border-radius: 5px;
+
+    &:hover,
+    &.active {
+        background: #e8e8e8;
+        cursor: pointer;
+    }
+}
+
+.dialog-resource-wrapper {
+    max-height: 150px;
+    overflow: auto;
+    margin-bottom: 10px !important;
+}

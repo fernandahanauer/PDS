@@ -1,0 +1,78 @@
+.candidates-table {
+
+    &.skill {
+        padding: 5px;
+        background-color: #be2626;
+        color: #fff;
+        display: inline-block;
+        border-radius: 3px;
+    }
+}
+
+.actions { 
+    button {
+        margin-right: 10px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+    
+}
+
+.tooltip-wrapper {
+    position: relative;
+
+    button span {
+        display: flex;
+        align-items: center;
+
+        svg {
+            margin-left: 10px;
+        }
+    }
+
+    .tooltip {
+        position: absolute;
+        display: none;
+        background-color: #fff;
+        border: 1px solid #b6b6b6;
+        z-index: 9;
+        top: 35px;
+        left: 0;
+        min-width: 350px;
+        border-radius: 5px;
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    tr, td{
+        color: #000;
+    }
+
+    &:hover .tooltip {
+        display: block;
+    }
+}
+
+th, tr, td{
+    text-align: left;
+}
+
+
+
+button {
+    span {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.filtros {
+    > div {
+        margin-right: 10px;
+    }
+}
